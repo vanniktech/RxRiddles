@@ -3,15 +3,15 @@ RxRiddles
 
 This repository contains some small for RxJava to help you learn and master RxJava. There is an [accompanying medium article](https://medium.com/@vanniktech/riddling-your-way-to-master-rxjava-145d5de99b55) that gives some more information.
 
-Each riddle is in a single file with an accompanied unit test that will check your implementation. Next to the unit test I have also put up my solution. Note that there are multiple ways to achieve and solve the riddles but usually there's a dedicated operator or function that I want to show you.
+Each riddle is in a single file with an accompanying unit test that will check your implementation. Next to the unit test, I have also put up my solution. Note that there are multiple ways to achieve and solve the riddles but usually there's a dedicated operator or function that I want to show you.
 
 The riddles are not sorted in any real preference and I plan to keep it that way. Just start with whichever one you prefer. Riddles with numbers lower than 100 can be solved with a single operator while every other riddle requires multiple operators.
 
 ### Contributing
 
-I'm very open to have some more riddles. Especially some complex common use cases. In case you want to contribute create an issue and let's talk.
+I'm very open to having some more riddles. Especially some complex common use cases. In case you want to contribute create an issue and let's talk.
 
-I want every riddle to be unique and have as less duplication as possible while also having some actual real world use case for each riddle in mind. Something you can relate to and hopefully use in your every day life.
+I want every riddle to be unique and have as little duplication as possible while also having some actual real-world use case for each riddle in mind. Something you can relate to and hopefully use in your everyday life.
 
 # License
 
