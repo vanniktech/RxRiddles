@@ -9,6 +9,6 @@ class Riddle24Test {
   @Test fun solve() {
     Riddle24.solve(Observable.just(Unit, Unit))
         .test()
-        .assertResult(2)
+        .assertResult(2L)
   }
 }
