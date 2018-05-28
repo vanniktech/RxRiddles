@@ -1,7 +1,7 @@
 RxRiddles
 =========
 
-This repository contains some small for RxJava to help you learn and master RxJava. There is an [accompanying medium article](https://medium.com/@vanniktech/riddling-your-way-to-master-rxjava-145d5de99b55) that gives some more information.
+This repository contains some riddles for RxJava to help you learn and master RxJava. There is an [accompanying medium article](https://medium.com/@vanniktech/riddling-your-way-to-master-rxjava-145d5de99b55) that gives some more information.
 
 Each riddle is in a single file with an accompanying unit test that will check your implementation. Next to the unit test, I have also put up my solution. Note that there are multiple ways to achieve and solve the riddles but usually there's a dedicated operator or function that I want to show you.
 
