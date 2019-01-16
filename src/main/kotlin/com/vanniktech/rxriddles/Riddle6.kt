@@ -5,6 +5,7 @@ import io.reactivex.Single
 object Riddle6 {
   /**
    * Execute both [first] and [second] Single's in parallel and provide both results as a pair.
+   * Assume both [first] and [single] will execute on a different thread already.
    *
    * Use case: Execute two network requests in parallel and wait for each other and process the combined data.
    */
