@@ -16,14 +16,20 @@ import java.util.concurrent.TimeUnit
  * I didn't do this here though, to ease solving the riddles and keep everything as simple as possible.
  */
 class RxRule(private val testScheduler: TestScheduler = TestScheduler()) : Scheduler(), TestRule {
-  override fun apply(base: Statement, description: Description): Statement {
-    // Override all of the default schedulers so we can use our testScheduler when testing.
-    RxJavaPlugins.setComputationSchedulerHandler { testScheduler }
-    RxJavaPlugins.setIoSchedulerHandler { testScheduler }
-    RxJavaPlugins.setSingleSchedulerHandler { testScheduler }
-    RxJavaPlugins.setNewThreadSchedulerHandler { testScheduler }
+  override fun apply(base: Statement, description: Description): Statement = object : Statement() {
+    override fun evaluate() {
+      // Override all of the default schedulers so we can use our testScheduler when testing.
+      RxJavaPlugins.setComputationSchedulerHandler { testScheduler }
+      RxJavaPlugins.setIoSchedulerHandler { testScheduler }
+      RxJavaPlugins.setSingleSchedulerHandler { testScheduler }
+      RxJavaPlugins.setNewThreadSchedulerHandler { testScheduler }
 
-    return base
+      try {
+        base.evaluate()
+      } finally {
+        RxJavaPlugins.reset()
+      }
+    }
   }
 
   override fun createWorker() = testScheduler.createWorker()
