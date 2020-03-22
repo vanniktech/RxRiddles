@@ -13,6 +13,10 @@ I'm very open to having some more riddles. Especially some complex common use ca
 
 I want every riddle to be unique and have as little duplication as possible while also having some actual real-world use case for each riddle in mind. Something you can relate to and hopefully use in your everyday life.
 
+### RxJS
+
+There is an initiative in [RxRiddles-TypeScript](https://github.com/jakovljevic-mladen/RxRiddles-TypeScript) project to re-write riddles from this project to RxJS and TypeScript. Take a look if you're interested.
+
 # License
 
 Copyright (C) 2018 Vanniktech - Niklas Baudy
