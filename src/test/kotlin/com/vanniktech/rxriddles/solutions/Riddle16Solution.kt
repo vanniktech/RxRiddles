@@ -4,6 +4,6 @@ import io.reactivex.Observable
 import io.reactivex.Single
 
 object Riddle16Solution {
-  fun solve(first: Observable<String>, second: (String) -> Single<Int>)
-      = first.switchMapSingle { second.invoke(it) }
+  fun solve(source: Observable<String>, function: (String) -> Single<Int>)
+      = source.switchMapSingle(function)
 }
