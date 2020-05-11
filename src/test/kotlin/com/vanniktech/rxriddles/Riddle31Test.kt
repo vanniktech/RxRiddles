@@ -1,7 +1,7 @@
 package com.vanniktech.rxriddles
 
 import com.vanniktech.rxriddles.solutions.Riddle31Solution
-import io.reactivex.Observable
+import io.reactivex.rxjava3.core.Observable
 import org.junit.Test
 import java.util.concurrent.atomic.AtomicInteger
 

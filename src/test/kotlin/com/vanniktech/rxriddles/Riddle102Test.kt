@@ -1,7 +1,8 @@
 package com.vanniktech.rxriddles
 
 import com.vanniktech.rxriddles.solutions.Riddle102Solution
-import io.reactivex.Single
+import com.vanniktech.rxriddles.tools.awaitTerminalEvent
+import io.reactivex.rxjava3.core.Single
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.Test
 import java.util.concurrent.CountDownLatch

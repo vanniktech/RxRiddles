@@ -1,7 +1,7 @@
 package com.vanniktech.rxriddles
 
 import com.vanniktech.rxriddles.solutions.Riddle14Solution
-import io.reactivex.Single
+import io.reactivex.rxjava3.core.Single
 import org.assertj.core.api.Java6Assertions.assertThat
 import org.junit.Test
 import java.util.concurrent.atomic.AtomicInteger

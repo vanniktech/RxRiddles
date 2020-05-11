@@ -1,7 +1,7 @@
 package com.vanniktech.rxriddles
 
 import com.vanniktech.rxriddles.solutions.Riddle28Solution
-import io.reactivex.subjects.CompletableSubject
+import io.reactivex.rxjava3.subjects.CompletableSubject
 import org.assertj.core.api.Java6Assertions.assertThat
 import org.junit.Test
 import java.util.concurrent.atomic.AtomicInteger

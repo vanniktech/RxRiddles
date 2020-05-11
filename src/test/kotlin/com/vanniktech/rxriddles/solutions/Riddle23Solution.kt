@@ -1,6 +1,6 @@
 package com.vanniktech.rxriddles.solutions
 
-import io.reactivex.Observable
+import io.reactivex.rxjava3.core.Observable
 
 object Riddle23Solution {
   fun solve(source: Observable<Any>)

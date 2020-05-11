@@ -1,6 +1,6 @@
 package com.vanniktech.rxriddles.solutions
 
-import io.reactivex.Single
+import io.reactivex.rxjava3.core.Single
 import java.util.concurrent.TimeUnit.SECONDS
 
 object Riddle32Solution {

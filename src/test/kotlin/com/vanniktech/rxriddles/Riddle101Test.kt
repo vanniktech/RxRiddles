@@ -21,7 +21,7 @@ class Riddle101Test {
     o.assertValuesOnly(60, 59)
 
     rxRule.advanceTimeBy(29, SECONDS)
-    o.assertValueSequenceOnly((30L..60L).reversed())
+    o.assertValueSequence((30L..60L).reversed())
 
     rxRule.advanceTimeBy(30, SECONDS)
     o.assertValueSequence((0L..60L).reversed())
