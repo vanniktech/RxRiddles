@@ -20,7 +20,7 @@ repositories {
 
 dependencies {
   implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
-  implementation 'io.reactivex.rxjava2:rxjava:2.2.19'
+  implementation 'io.reactivex.rxjava3:rxjava:3.0.3'
 
   testImplementation "junit:junit:4.12"
   testImplementation "org.assertj:assertj-core:3.10.0"

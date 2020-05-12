@@ -1,7 +1,7 @@
 package com.vanniktech.rxriddles
 
-import io.reactivex.Maybe
-import io.reactivex.Single
+import io.reactivex.rxjava3.core.Maybe
+import io.reactivex.rxjava3.core.Single
 
 object Riddle35 {
   /**

@@ -1,7 +1,7 @@
 package com.vanniktech.rxriddles.solutions
 
-import io.reactivex.Single
-import io.reactivex.functions.BiFunction
+import io.reactivex.rxjava3.core.Single
+import io.reactivex.rxjava3.functions.BiFunction
 
 object Riddle6Solution {
   fun solve(first: Single<Int>, second: Single<Int>)

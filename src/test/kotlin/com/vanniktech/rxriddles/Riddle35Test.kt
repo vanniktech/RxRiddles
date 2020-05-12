@@ -2,8 +2,8 @@ package com.vanniktech.rxriddles
 
 import com.vanniktech.rxriddles.solutions.Riddle35Solution
 import com.vanniktech.rxriddles.tools.RxRule
-import io.reactivex.Maybe
-import io.reactivex.Single
+import io.reactivex.rxjava3.core.Maybe
+import io.reactivex.rxjava3.core.Single
 import org.junit.Rule
 import org.junit.Test
 

@@ -1,7 +1,7 @@
 package com.vanniktech.rxriddles
 
 import com.vanniktech.rxriddles.solutions.Riddle29Solution
-import io.reactivex.subjects.MaybeSubject
+import io.reactivex.rxjava3.subjects.MaybeSubject
 import org.assertj.core.api.Java6Assertions.assertThat
 import org.junit.Test
 import java.util.concurrent.atomic.AtomicReference

@@ -1,6 +1,6 @@
 package com.vanniktech.rxriddles
 
-import io.reactivex.Maybe
+import io.reactivex.rxjava3.core.Maybe
 
 object Riddle29 {
   /**
