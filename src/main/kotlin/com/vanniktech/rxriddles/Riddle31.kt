@@ -9,6 +9,6 @@ object Riddle31 {
    * Use case: You want to re-run a certain Observable a number of times.
    */
   fun solve(source: Observable<Int>): Observable<Int> {
-    TODO()
+    return source.repeat(3)
   }
 }
