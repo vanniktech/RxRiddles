@@ -7,12 +7,10 @@ buildscript {
   }
   dependencies {
     classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-    classpath 'com.github.ben-manes:gradle-versions-plugin:0.17.0'
   }
 }
 
 apply plugin: 'kotlin'
-apply plugin: 'com.github.ben-manes.versions'
 
 repositories {
   mavenCentral()
