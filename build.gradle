@@ -17,7 +17,7 @@ repositories {
 }
 
 dependencies {
-  implementation "io.reactivex.rxjava3:rxjava:3.1.5"
+  implementation "io.reactivex.rxjava3:rxjava:3.1.6"
 
   testImplementation "junit:junit:4.13.2"
   testImplementation "org.assertj:assertj-core:3.24.2"
