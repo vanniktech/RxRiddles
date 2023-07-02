@@ -3,7 +3,7 @@ package com.vanniktech.rxriddles
 import com.vanniktech.rxriddles.solutions.Riddle6Solution
 import com.vanniktech.rxriddles.tools.RxRule
 import io.reactivex.rxjava3.core.Single
-import org.assertj.core.api.Java6Assertions.assertThat
+import org.assertj.core.api.Assertions.assertThat
 import org.junit.Rule
 import org.junit.Test
 import java.util.concurrent.TimeUnit.SECONDS

@@ -2,7 +2,7 @@ package com.vanniktech.rxriddles
 
 import com.vanniktech.rxriddles.solutions.Riddle27Solution
 import io.reactivex.rxjava3.subjects.PublishSubject
-import org.assertj.core.api.Java6Assertions.assertThat
+import org.assertj.core.api.Assertions.assertThat
 import org.junit.Test
 
 /** Solution [Riddle27Solution] */
