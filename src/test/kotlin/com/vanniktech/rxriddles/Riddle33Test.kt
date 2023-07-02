@@ -3,7 +3,7 @@ package com.vanniktech.rxriddles
 import com.vanniktech.rxriddles.solutions.Riddle33Solution
 import io.reactivex.rxjava3.core.Completable
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.assertj.core.api.Java6Assertions.assertThat
+import org.assertj.core.api.Assertions.assertThat
 import org.junit.Test
 import java.util.concurrent.Executors
 
